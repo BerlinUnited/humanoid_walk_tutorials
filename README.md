@@ -1,6 +1,5 @@
-# pkcpg_walk
-Experiments and tutorials to create simple walking behavior for humanoid robots based on central pattern generators (cpg) and parallel kinematics (pk) assumptions.
-
+# Humanoid Walk Tutorials
+Experiments and tutorials to create simple walking behavior on humanoid robots based on ideas of central pattern generators (cpg) and parallel kinematics (pk) assumptions.
 
 ## Simulation
 For our experiments we use the Webots simulator:  
