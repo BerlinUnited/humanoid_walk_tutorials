@@ -11,8 +11,8 @@ class Sprinter(Robot):
         # This is the time step (ms) used in the motion file.
         self.timeStep = 40
         # Get pointers to the shoulder motors.
-        self.RShoulderPitch = self.getMotor('RShoulderPitch')
-        self.LShoulderPitch = self.getMotor('LShoulderPitch')
+        self.RShoulderPitch = self.getDevice('RShoulderPitch')
+        self.LShoulderPitch = self.getDevice('LShoulderPitch')
         # Move the arms down.
         self.RShoulderPitch.setPosition(1.1)
         self.LShoulderPitch.setPosition(1.1)
