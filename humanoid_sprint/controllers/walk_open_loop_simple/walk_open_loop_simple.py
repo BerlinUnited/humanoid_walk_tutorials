@@ -19,22 +19,22 @@ class Sprinter(Robot):
         self.timeStep = int(self.getBasicTimeStep())
         
         # Get pointers to the shoulder motors.
-        self.RShoulderPitch = self.getMotor('RShoulderPitch')
-        self.LShoulderPitch = self.getMotor('LShoulderPitch')
+        self.RShoulderPitch = self.getDevice('RShoulderPitch')
+        self.LShoulderPitch = self.getDevice('LShoulderPitch')
         
         # Get pointers to the 12 motors of the legs
-        self.RHipYawPitch = self.getMotor('RHipYawPitch')
-        self.LHipYawPitch = self.getMotor('LHipYawPitch')
-        self.RHipRoll     = self.getMotor('RHipRoll')
-        self.LHipRoll     = self.getMotor('LHipRoll')
-        self.RHipPitch    = self.getMotor('RHipPitch')
-        self.LHipPitch    = self.getMotor('LHipPitch')
-        self.RKneePitch   = self.getMotor('RKneePitch')
-        self.LKneePitch   = self.getMotor('LKneePitch')
-        self.RAnklePitch  = self.getMotor('RAnklePitch')
-        self.LAnklePitch  = self.getMotor('LAnklePitch')
-        self.RAnkleRoll   = self.getMotor('RAnkleRoll')
-        self.LAnkleRoll   = self.getMotor('LAnkleRoll')
+        self.RHipYawPitch = self.getDevice('RHipYawPitch')
+        self.LHipYawPitch = self.getDevice('LHipYawPitch')
+        self.RHipRoll     = self.getDevice('RHipRoll')
+        self.LHipRoll     = self.getDevice('LHipRoll')
+        self.RHipPitch    = self.getDevice('RHipPitch')
+        self.LHipPitch    = self.getDevice('LHipPitch')
+        self.RKneePitch   = self.getDevice('RKneePitch')
+        self.LKneePitch   = self.getDevice('LKneePitch')
+        self.RAnklePitch  = self.getDevice('RAnklePitch')
+        self.LAnklePitch  = self.getDevice('LAnklePitch')
+        self.RAnkleRoll   = self.getDevice('RAnkleRoll')
+        self.LAnkleRoll   = self.getDevice('LAnkleRoll')
         
         
     # move the left foot (keep the foot paralell to the ground)
